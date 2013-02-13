@@ -24,6 +24,7 @@
 		7C46352516CBC2A7001A65C3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C46350416CBC2A7001A65C3 /* CoreData.framework */; };
 		7C46352D16CBC2A7001A65C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C46352B16CBC2A7001A65C3 /* InfoPlist.strings */; };
 		7C46353016CBC2A7001A65C3 /* Working_Hard_or_Hardly_WorkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C46352F16CBC2A7001A65C3 /* Working_Hard_or_Hardly_WorkingTests.m */; };
+		7C7A5E9B16CBE49000E706AC /* MainUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7A5E9A16CBE49000E706AC /* MainUIView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		7C46352C16CBC2A7001A65C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7C46352E16CBC2A7001A65C3 /* Working_Hard_or_Hardly_WorkingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Working_Hard_or_Hardly_WorkingTests.h; sourceTree = "<group>"; };
 		7C46352F16CBC2A7001A65C3 /* Working_Hard_or_Hardly_WorkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Working_Hard_or_Hardly_WorkingTests.m; sourceTree = "<group>"; };
+		7C7A5E9916CBE49000E706AC /* MainUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainUIView.h; sourceTree = "<group>"; };
+		7C7A5E9A16CBE49000E706AC /* MainUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainUIView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 			children = (
 				7C46350F16CBC2A7001A65C3 /* AppDelegate.h */,
 				7C46351016CBC2A7001A65C3 /* AppDelegate.m */,
+				7C7A5E9916CBE49000E706AC /* MainUIView.h */,
+				7C7A5E9A16CBE49000E706AC /* MainUIView.m */,
 				7C46351816CBC2A7001A65C3 /* Working_Hard_or_Hardly_Working.xcdatamodeld */,
 				7C46350716CBC2A7001A65C3 /* Supporting Files */,
 			);
@@ -273,6 +278,7 @@
 				7C46350D16CBC2A7001A65C3 /* main.m in Sources */,
 				7C46351116CBC2A7001A65C3 /* AppDelegate.m in Sources */,
 				7C46351A16CBC2A7001A65C3 /* Working_Hard_or_Hardly_Working.xcdatamodeld in Sources */,
+				7C7A5E9B16CBE49000E706AC /* MainUIView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +451,7 @@
 				7C46353516CBC2A7001A65C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C46353616CBC2A7001A65C3 /* Build configuration list for PBXNativeTarget "Working-Hard-or-Hardly-WorkingTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +460,7 @@
 				7C46353816CBC2A7001A65C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
